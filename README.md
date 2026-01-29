@@ -27,13 +27,67 @@ This repository documents my **structured learning journey** in Machine Learning
 
 ```
 ml-learning-journey/
-├── fundamentals/        # Python, NumPy, Pandas
-├── math/                # Linear Algebra, Statistics, Calculus for ML
-├── machine_learning/    # Supervised & Unsupervised ML
-├── projects/            # Mini & End-to-End Projects
-├── notes/               # Personal learning notes
-└── experiments/         # Playground & experiments
+├── fundamentals/
+│ └── python/
+│ ├── 01_basic_syntax.py
+│ ├── 02_data_structures.py
+│ ├── 03_control_flow.py
+│ ├── 04_functions.py
+│ ├── 05_numpy.py
+│ ├── 06_pandas.py
+│ └── 07_mini_project_eda.py
+│
+├── ml_models/
+│ └── iris_classifier/
+│ └── train.py
+│
+└── README.md
 ```
+
+## 🧪 Projects & Exercises
+
+### 1️⃣ Python Fundamentals for ML
+Located in `fundamentals/python/`, covering:
+- Python syntax and control flow
+- Data structures for ML
+- Functions and modular code
+- NumPy for numerical computing
+- Pandas for data analysis
+
+### 2️⃣ Mini Project – Exploratory Data Analysis (EDA)
+- Dataset: Iris dataset
+- Tasks:
+  - Load and inspect data
+  - Check missing values
+  - Descriptive statistics
+  - Understand feature distributions
+
+### 3️⃣ Machine Learning Model – Iris Classifier
+- Algorithm: Logistic Regression
+- Framework: scikit-learn
+- Workflow:
+  - Train-test split
+  - Model training
+  - Evaluation using accuracy and classification report
+
+## 🛠 Tech Stack
+- Python 3
+- NumPy
+- Pandas
+- scikit-learn
+- Linux (Ubuntu)
+
+## 🚀 Next Steps
+- Feature scaling
+- ML pipelines
+- Cross-validation
+- Model persistence (save/load)
+- More real-world datasets and projects
+
+---
+
+📌 *This repository is continuously updated as part of my journey to become a professional Machine Learning Engineer.*
+
 
 > This repository grows **progressively** as my skills improve.
 
